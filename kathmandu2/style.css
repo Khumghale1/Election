@@ -1,0 +1,725 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+.top {
+    width: 100%;
+    height: 18%;
+    background-size: cover;
+    background-image: url(./photo/Rectangle\ 128.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.logo {
+    width: 18%;
+    height: 60%;
+    margin-top: 1.5rem;
+    margin-left: 2%;
+}
+
+.t1 {
+    font-family: "Poppins";
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: white;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.line {
+    background-color: white;
+    height: 60%;
+    width: 0.15rem;
+    margin-top: 2%;
+    margin-left: 1.8%;
+}
+
+.t2 {
+    font-family: "Poppins";
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    margin-left: 1.8%;
+    margin-top: 3.4%;
+}
+
+.topbox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 15%;
+    font-size: large;
+
+    border: 0.1rem solid white;
+    font-family: "Poppins";
+    margin-top: 6.7%;
+    margin-left: 2%;
+}
+
+.topbox1:hover {
+    background-color: black;
+    color: white;
+}
+
+.topbox1>a {
+    color: white;
+    text-decoration: none;
+}
+
+.topbox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 15%;
+    color: black;
+    font-size: large;
+    border: 0.1rem solid white;
+    font-family: "Poppins";
+    margin-top: 6.7%;
+    margin-left: 0.5%;
+}
+
+.topbox2:hover {
+    background-color: white;
+}
+
+.topbox2>a {
+    color: black;
+    text-decoration: none;
+}
+
+/* ------------mid-box------ */
+.mid {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.midtext {
+    text-align: center;
+    font-family: "Poppins";
+    color: rgba(0, 129, 0, 1);
+    margin-top: 2%;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+/* ----------heading------ */
+.contentbox {
+    width: 80%;
+    height: 78%;
+    border: 0.1rem solid rgba(0, 129, 0, 1);
+    margin-top: 3.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonbox {
+    height: 12%;
+    width: 75%;
+    margin-top: 6.5%;
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+}
+
+.midbox1 {
+    width: 23%;
+    background-color: green;
+    color: rgb(242, 243, 242);
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 800;
+    border: 0.2rem solid rgba(0, 129, 0, 1);
+}
+
+.midbox4 {
+    width: 23%;
+    color: green;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 0.2rem solid rgba(0, 129, 0, 1);
+    background-color: white;
+}
+
+.searchicon {
+
+    color: green;
+}
+
+.leftcontent {
+    height: 80%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+}
+
+.uml {
+    height: 100%;
+}
+
+.maoist {
+    height: 100%;
+}
+
+.bar {
+    height: 50%;
+    width: 75%;
+    background-color: rgba(239, 233, 233, 1);
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar1 {
+    height: 100%;
+    width: 49%;
+    background-color: rgba(255, 0, 0, 1);
+    border-radius: 1.5rem 0rem 0rem 1.5rem;
+}
+
+.bar2 {
+    height: 100%;
+    width: 49%;
+    background-color: rgba(158, 82, 255, 1);
+    border-radius: 0rem 1.5rem 1.5rem 0rem;
+}
+
+.data {
+    position: absolute;
+    left: 12.5%;
+    top: 32%;
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+}
+
+.cpndata {
+    display: flex;
+    align-items: center;
+}
+
+.d1 {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: "Poppins";
+}
+
+.d2 {
+    font-size: 0.7rem;
+    font-weight: 700;
+    font-family: "Poppins";
+    color: rgba(255, 0, 0, 1);
+}
+
+.congressdata {
+    display: flex;
+    align-items: center;
+}
+
+.d3 {
+    font-size: 0.7rem;
+    font-weight: 700;
+    font-family: "Poppins";
+    color: rgba(158, 82, 255, 1);
+}
+
+.d4 {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: "Poppins";
+}
+
+.rightcontent {
+    height: 80%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.bargraphs {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.bargraph1 {
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+    height: 5%;
+    width: 14%;
+    background-color: rgba(0, 129, 0, 1);
+    display: flex;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.bargraph2 {
+    position: absolute;
+    bottom: 5%;
+    left: 35%;
+    height: 40%;
+    width: 14%;
+    background-color: rgba(255, 0, 0, 1);
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.bargraph3 {
+    position: absolute;
+    bottom: 5%;
+    left: 55%;
+    height: 5%;
+    width: 14%;
+    background-color: rgba(238, 57, 60, 1);
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.bargraph4 {
+    position: absolute;
+    bottom: 5%;
+    left: 75%;
+    height: 40%;
+    width: 14%;
+    background-color: rgba(158, 82, 255, 1);
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.base {
+    height: 5%;
+    width: 74%;
+    background-color: rgba(255, 186, 7, 1);
+    position: absolute;
+    bottom: 0%;
+    left: 15%;
+}
+
+.lead1 {
+    position: relative;
+    top: -140%;
+    color: rgba(99, 93, 93, 1);
+}
+
+.lead2 {
+    position: relative;
+    top: -18%;
+    color: rgba(99, 93, 93, 1);
+}
+
+.lead3 {
+    position: relative;
+    top: -140%;
+    color: rgba(99, 93, 93, 1);
+}
+
+.lead4 {
+    position: relative;
+    top: -18%;
+    color: rgba(99, 93, 93, 1);
+}
+
+b {
+    color: rgba(0, 129, 0, 1);
+}
+
+.partyimgages {
+    display: flex;
+}
+
+.partyimg1 {
+    position: absolute;
+    height: 15%;
+    width: 10%;
+    top: 60%;
+    left: 17%;
+}
+
+.partyimg2 {
+    position: absolute;
+    height: 17%;
+    width: 10%;
+    top: 30%;
+    left: 36%;
+}
+
+.partyimg3 {
+    position: absolute;
+    height: 18%;
+    width: 10%;
+    top: 58%;
+    left: 57%;
+}
+
+.partyimg4 {
+    position: absolute;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 600;
+    top: 38%;
+    left: 76%;
+    color: rgba(158, 82, 255, 1);
+}
+
+.wins {
+    width: 80%;
+    height: 10%;
+    margin-left: 12%;
+    justify-content: space-around;
+    display: flex;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media (max-width: 900px) {
+    .logo {
+        height: 28%;
+        width: 23%;
+        margin-top: 5%;
+    }
+
+    .t1 {
+        font-size: 1rem;
+        width: 30%;
+        margin-left: 10%;
+
+    }
+
+    .line {
+        height: 25%;
+        width: 0.1%;
+        margin-top: 4%;
+    }
+
+    .t2 {
+        width: max-content;
+        font-size: 1rem;
+        margin-left: 1%;
+        margin-top: 3%;
+    }
+
+    .topbox1 {
+        margin-left: -10%;
+        margin-top: 11%;
+        width: 50%;
+    }
+
+    .topbox1>a {
+        font-size: small;
+    }
+
+    .topbox2 {
+        margin-top: 11%;
+        width: 50%;
+    }
+
+    .topbox2>a {
+        font-size: small;
+    }
+
+    .midtext {
+        margin-top: -5%;
+    }
+
+    .buttonbox {
+        margin-top: 3.5%;
+        height: 7%;
+    }
+
+    .midbox1 {
+        font-size: 1rem;
+    }
+
+    .midbox2 {
+        font-size: 1rem;
+    }
+
+    .midbox3 {
+        font-size: 1rem;
+    }
+
+    .midbox4 {
+        font-size: 1rem;
+    }
+
+    .searchicon {
+        height: 35%;
+        width: 15%;
+        left: 12%;
+    }
+
+    .contentbox {
+        flex-direction: column;
+        height: 60%;
+        margin-top: 7%;
+    }
+
+    .leftcontent {
+        width: 90%;
+    }
+
+    .data {
+        left: 14%;
+        width: 70%;
+        margin-top: -1.5%;
+    }
+
+    .rightcontent {
+        width: 100%;
+        margin-top: -20%;
+    }
+}
+
+@media (max-width:450px) {
+
+    .top {
+    height:8%;
+    }
+
+    .logo {
+        height: 40%;
+        width: 30%;
+        margin-top: 8%;
+    }
+.t1{
+    margin-top: 4%;
+    font-size: 10px;
+    margin-left: 5%;
+}
+.line{
+display: none;
+}
+.t2{
+    width: 35%;
+    margin-top: 8%;
+    font-size: 10px;
+    margin-left: -28%;
+
+}
+    
+.topbox1{
+    height: 10%;
+    width: 20%;
+color: white;
+   margin-top: 15%;
+}
+.topbox1>a{
+    font-size: 9px;
+}
+   
+.topbox2{
+    height: 10%;
+    width: 25%;
+    margin-top: 15%;
+}
+.topbox2>a{
+    font-size: 9px;
+}
+
+/* ---------------- */
+
+    .midtext {
+        font-size: 1rem;
+        margin-top: 5%;
+    }
+
+    .buttonbox {
+        margin-top: 17%;
+        height: 3%;
+    }
+
+    .midbox1 {
+        width: 40%;
+        font-size: .9rem;
+    }
+    .midbox4 {
+        width: 30%;
+        font-size: .6rem;
+        border: 2px solid green;
+    }
+
+    .searchicon {
+        height: 55%;
+        margin-left: 8%;
+    }
+
+    .contentbox {
+        margin-top: 8%;
+        border: 3px solid green;
+    }
+
+    .leftcontent {
+        margin-top: -9%;
+        height: 60%;
+    }
+
+    .bars {
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .uml {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .maoist {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .bar {
+        height: 9%;
+    }
+
+    .data {
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+
+    .d1 {
+        font-size: 1rem;
+    }
+
+    .d2 {
+        font-size: 0.4rem;
+    }
+
+    .d3 {
+        font-size: 0.4rem;
+    }
+
+    .d4 {
+        font-size: 1rem;
+    }
+
+    .partyimg1 {
+        height: 2rem;
+        width: 2.2rem;
+        top: 61%;
+    }
+
+    .partyimg2 {
+        height: 2rem;
+        width: 2rem;
+        top: 27%;
+    }
+
+    .partyimg3 {
+        height: 2rem;
+        width: 2rem;
+        top: 58%;
+    }
+
+    .partyimg4 {
+        color: black;
+        font-size: 0.8rem;
+        top: 32%;
+        font-family: "Poppins";
+    }
+
+    .bargraph1 {
+        bottom: 13%;
+    }
+
+    .bargraph2 {
+        bottom: 13%;
+    }
+
+    .bargraph3 {
+        bottom: 13%;
+    }
+
+    .bargraph4 {
+        bottom: 13%;
+    }
+
+    .base {
+        bottom: 8%;
+    }
+
+    .lead1 {
+        font-size: 0.5rem;
+        margin-left: 12%;
+    }
+
+    .lead2 {
+        font-size: 0.5rem;
+        margin-left: 12%;
+    }
+
+    .lead3 {
+        font-size: 0.5rem;
+        margin-left: 12%;
+    }
+
+    .lead4 {
+        
+        font-size: 0.5rem;
+        margin-left: 12%;
+    }
+
+    .win1 {
+        font-size: 0.5rem;
+    }
+
+    .win2 {
+        font-size: 0.5rem;
+    }
+
+    .win3 {
+        font-size: 0.5rem;
+    }
+
+    .win4 {
+        font-size: 0.5rem;
+    }
+
+    .wins {
+        margin-top: -5%;
+    }
+}
